@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Las Cabañas del Abuelo</title>
+    <link rel="icon" href="/asset/img/Logo cbda.png">
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+    #chat{
+      position: fixed;
+      width: 250px;
+      height: 40px;
+      bottom: 0;
+      right:20px;
+      background-color: #bbb;
+      z-index: 1;
+      color: black;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 20px 20px 0 0 ;
+      cursor: pointer;
+    }
+    header {
+      position: relative;
+      margin: 20px auto;
+      width: 1020px;
+      height: 120px;
+    }
+    #logo {
+      position: absolute;
+      top: 10px;
+      left: 30px;
+      width: 100px;
+      height: 100px;
+    }
+    .redes {
+      position: absolute;
+      width: 42px;
+      height: 42px;
+      border-radius: 100%;
+    }
+    #icono1 {
+      top: 42px;
+      right: 120px;
+    }
+    #icono2 {
+      top: 42px;
+      right: 70px;
+    }
+
+    #icono3 {
+      top: 42px;
+      right: 20px;
+    }
+    nav {
+      position: relative;
+      margin: auto;
+      width: 1020px;
+      height: 48px;
+    }
+    .botones {
+      float: left;
+      width: 196px;
+      height: 48px;
+      margin: 4px 4px;
+      background-color: rgb(146, 145, 145);
+      color: white;
+      text-align: center;
+      line-height: 48px;
+    }
+    a.botones:hover{
+      background-color: #bbb;
+
+    }
+
+
+    #top {
+      position: relative;
+      margin: 20px auto;
+      width: 1020px;
+      height: 192px;
+    }
+
+    #top ul li {
+      float: left;
+      width: 330px;
+      height: 182px; 
+      background-color: #ccc;
+      margin: 5px 5px;
+    }
+    section {
+      position: relative;
+      margin: 20px auto;
+      width: 1020px;
+      height: 453px;
+    }
+    aside#izq iframe{
+      position: relative;
+      left: 5px;
+      top: 0px;
+      width: 170px;
+      height: 210px;
+      margin: 10px 10px;
+     
+    
+
+    }
+    aside#izq {
+      position: absolute;
+      left: 5px;
+      top: 0;
+      width: 198px;
+      height: 453px;
+    
+    }
+  
+    aside#izq ul li{
+      background-color: #bbb;
+      margin: 10px 10px;
+      padding: 16px; 
+      list-style: inside;
+      list-style-type: circle;
+    }
+    aside#izq ul li a{
+      text-decoration: none;
+    }
+    article img {
+      position: absolute;
+      padding: 10px ;
+      left: 250px;
+    }
+    aside#der {
+      position: absolute;
+      right: 5px;
+      top: 0;
+      width: 198px;
+      height: 453px;
+    
+    }
+
+  aside#der h5 {
+    width: 133px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(146, 145, 145);
+    margin: 10px 10px;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+   
+  }
+  aside#der input{
+    width: 150px;
+    height: 30px;
+    padding: 7px;
+    margin: 7px
+  }
+  aside#der button{
+    width: 150px;
+    height: 30px;
+    padding: 7px;
+    margin: 12px 10px;
+  }
+ 
+    footer {
+      position: relative;
+      margin: 20px auto;
+      width: 1020px;
+      height: 70px;
+      background-color: #888;
+    }
+    footer h5 {
+      position: relative;
+      top: 50%;
+      margin: 20px;
+      color: white;
+      text-align: center;
+     
+    }
+  </style>
+  <body>
+    <div id="chat"> chat</div>
+    <header>
+      <div id="logo">
+        
+        <img
+          src="../asset/img/Logo cbda.png"
+          width="100px"
+          height="100px"
+          alt="logo" />
+        
+      </div>
+<a href="https://www.facebook.com/people/Las-caba%C3%B1as-del-abuelo/100064351860492/">
+      <div id="icono1" class="redes">
+        <img
+          src="../asset/img/logo face.png"
+          width="42px"
+          height="42px"
+          alt="logo face"
+        />
+      </a>
+      </div>
+      <a href="https://www.instagram.com/cabadelabuelo.spc/?hl=es">
+      <div id="icono2" class="redes">
+        <img
+          src="../asset/img/logo insta.png"
+          width="42px"
+          height="42px"
+          alt="logo insta"
+        />
+      </a>
+      </div>
+      <a href="https://web.whatsapp.com/">
+      <div id="icono3" class="redes">
+        <img
+          src="../asset/img/logo wpp.png"
+          width="42px"
+          height="42px"
+          alt="logo whatsapp"
+        />
+      </a>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <a href="index.html"><li class="botones">Home</li></a>
+        <a href="duplex.html"><li class="botones">Duplex</li></a>
+        <a href="servicio.html"><li class="botones">Servicios</li></a>
+        <a href="actividades.html"><li class="botones">Actividades</li></a>
+        <a href="nosotros.html"><li class="botones">Nosotros</li></a>
+      </ul>
+    </nav>
+    <div id="top">
+      <ul>
+        <li><img src="../asset/img//paisaje 1.jpg" width="330px" alt="" /></li>
+        <li><img src="../asset/img/paisaje2.jpg" width="330px" alt="" /></li>
+        <li><img src="..//asset/img/paisaje 3.jpg" width="330px" alt="" /></li>
+      </ul>
+    </div>
+    <br />
+    <section>
+      <aside id="izq">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14315.040538769932!2d-65.4884058!3d-26.2369823!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa48988b47e4e1758!2sLas%20caba%C3%B1as%20del%20abuelo!5e0!3m2!1ses!2sar!4v1675275771429!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <ul>
+          <li> <a href="#"></a>Reserva</li>
+          <li><a href="#"></a>Registrate</li>
+          <li><a href="#"></a>Presupuesto</li>
+        </ul>
+      </aside>
+      <article>
+        <img src="../asset/img/2.jpg" width="50%" alt="cabañas" />
+      </article>
+      <aside id="der">
+        <form>
+          <h5> Tenes dudas, CONSULTANOS!</h5 >
+          <input type="text" placeholder="Nombre ">
+          <br>
+          <input type="number" placeholder="Telefono">
+          <br>
+          <input type="email" placeholder="Email ">
+          <br>
+          <input type="text" placeholder="Consulta">
+          <br>
+          <button type="submit"> Enviar</button>
+        </form>
+      </aside>
+    </section>
+  </body>
+  <footer>
+    <h5>Villa Gloria - San Pedro del Colalao- Trancas- Tucumán, Argentina</h5>
+  </footer>
+</html>
